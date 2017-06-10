@@ -5,6 +5,7 @@ Downloaded Redfin data for 7 elementary school districts in Oakland (Emerson, Pi
 
 Here are the result for the current model.  See model.py for variable definitions.  This includes dummies per school district, square feet, bathroom count, 4 variables for different time periods, whether I favorited the house, lot size, prewar (historic houses), and walkscore.  Additional bedrooms were not positive so were removed.
 
+```
 const                708.138537
 SQUARE FEET           -0.251568
 BATHS                 34.057259
@@ -21,7 +22,7 @@ peralta               79.286202
 crocker_highlands     77.134351
 piedmont              56.810591
 emerson                0.387973
-
+```
 To run again
 
 * sample.py merges data and runs filters
