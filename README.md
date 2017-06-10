@@ -3,7 +3,17 @@ A model of home values in my favorite neighborhoods in Oakland
 
 Downloaded Redfin data for 7 elementary school districts in Oakland (Emerson, Piedmont, Rockridge, Crocker, Glenview, Chabot, Peralta), limited to a reasonable price range for single family houses (600k-1.5M) and within past 1.5 years.
 
-Here are the result for the current model.  See model.py for variable definitions.  This includes dummies per school district, square feet, bathroom count, 4 variables for different time periods, whether I favorited the house, lot size, prewar (historic houses), and walkscore.  Additional bedrooms were not positive so were removed.
+Here are the result for the current model.  See model.py for complete variable definitions.  Dependent variable is price/sqft. Model includes:
+* dummies per school district
+* square feet (negative in price/sqft model)
+* bathroom count
+* 4 variables for different time periods
+* whether I favorited the house
+* lot size
+* prewar (historic houses)
+* walkscore
+
+Bedroom count was not positive so was removed.
 
 ```
 const                708.138537
